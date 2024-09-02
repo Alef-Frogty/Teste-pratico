@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contratos</title>
+  <style>
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="orgao">Órgão: <input type="text" id="cnpj" placeholder="Informe o CNPJ do órgão"></h1>
+  <p>Período:</p>
+  <p>Data inicial: <input type="date" id="initial-date"></p>
+  <p>Data final: <input type="date" id="final-date"></p>
+  <button id="search-button">Buscar contratos</button>
+  <ul id="contract-list"></ul>
+  <p id="valor-total"></p>
+  <script src="script.js"></script>
+</body>
+</html>
